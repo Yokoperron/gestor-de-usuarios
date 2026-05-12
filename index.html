@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios Gestor</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body onload="cargarlist();">
+    <div class="contenedor1">
+        <h1>Crear usuarios</h1>
+        <input type="text" id="boxid" placeholder="ingresa tu id">
+        <input type="text" id="boxname" placeholder="ingresa tu nombre">
+        <input type="radio" id="genero"><label>Femenino</label>
+        <input type="radio" id="genero"><label>Masculino</label>
+        <button value="ver personas" onclick="verpersonasVentana()">obtener personas</button>
+        <button value="agregar personas" onclick="agregarpersonas()">agregar persona</button>
+        <button onclick="eliminarpersonas()">Eliminar persona</button>
+    </div>
+</body>
+</html>

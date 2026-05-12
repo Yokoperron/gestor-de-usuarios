@@ -56,7 +56,7 @@ function verpersonasVentana(){
     ventana = window.open("","", "height=400, width=500")
     content = "<html><head><title>Lista de personas</title></head><body bgcolor='salmon'>"
     ventana.document.write(content)
-    ventana.document.write("<h1>hola</h1>")
+    ventana.document.write("<center><h1>Lista de Miembros</h1>")
     for (let i = 0; i<listpersonas.length; i++){
         ventana.document.write(listpersonas[i].getName())
         ventana.document.write("<br/>")

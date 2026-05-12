@@ -6,3 +6,18 @@ body{
     margin-top: 20px;
     gap: 20px;
 }
+
+.contenedor1{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
